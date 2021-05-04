@@ -1,0 +1,665 @@
+/* ------------------------------------HEADER---------------------------------- */
+.HeaderBackgroundImage {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.HeaderBackgroundImage img {
+  width: 100%;
+  height: 100%;
+}
+.HeaderImageOverNavbar {
+  top: 2%;
+  position: absolute;
+  color: white;
+  width: 100%;
+}
+.NavbarItems ul {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+}
+.NavbarItems ul li {
+  color: #d9d3f4;
+}
+.NavbarItems ul li:hover {
+  color: white;
+}
+.NavbarTivo {
+  float: left;
+  margin-left: 5%;
+  font-size: 30px;
+  font-style: italic;
+}
+.NavbarItems {
+  float: right;
+  margin-right: 5%;
+}
+.NavbarItems ul li select {
+  background-color: unset;
+  color: #d9d3f4;
+  border: unset;
+}
+.NavbarButton {
+  background-color: unset;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  font-weight: bold;
+}
+.vd {
+  color: red;
+}
+.HeaderImageOverContent {
+  width: 25%;
+  color: white;
+  position: absolute;
+  bottom: 27%;
+  left: 20%;
+  float: left;
+}
+.NavbarItems ul {
+  display: flex !important;
+}
+.NavbarItems .KicikPixelde ul {
+  float: right;
+  margin-right: 5%;
+  display: none !important;
+}
+@media (max-width: 608px) {
+  .NavbarItems ul {
+    display: none !important;
+  }
+  .NavbarItems .KicikPixelde ul {
+    float: right;
+    margin-right: 5%;
+    display: block !important;
+  }
+}
+.row {
+  /* --bs-gutter-x: 1.5rem; */
+  /* --bs-gutter-y: 0; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  /* margin-right: calc(var(--bs-gutter-x) / -2); */
+  margin-right: 0 !important;
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.HeasderImageOverImage {
+  position: absolute;
+  width: 400px;
+  height: 200;
+  bottom: 15%;
+  right: 20%;
+  float: left;
+}
+.HeaderImageOverContentButton {
+  border-radius: 20px;
+  color: blue;
+  background-color: white;
+  border-color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 1100px) {
+  .HeaderImageOverContent {
+    width: 25%;
+    color: white;
+    position: absolute;
+    bottom: 27%;
+    left: 15%;
+    float: left;
+  }
+  .HeaderImageOverContent h1 {
+    font-size: revert;
+  }
+  .HeasderImageOverImage img {
+    width: 80%;
+  }
+  .HeasderImageOverImage {
+    position: absolute;
+    width: 400px;
+    bottom: 16%;
+    right: 11%;
+    float: right;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 820px) {
+  .HeasderImageOverImage {
+    position: absolute;
+    width: 400px;
+    height: 200;
+    bottom: 16%;
+    right: 0% !important;
+    float: inline-end;
+    box-sizing: border-box;
+  }
+  .HeaderImageOverContent {
+    width: 25%;
+    color: white;
+    position: absolute;
+    bottom: 27%;
+    left: 4%;
+    float: left;
+  }
+}
+@media (max-width: 654px) {
+  .HeasderImageOverImage img {
+    display: none;
+  }
+  .HeaderImageOverContent {
+    width: 55%;
+    color: white;
+    position: absolute;
+    bottom: 34%;
+    left: 25%;
+  }
+}
+@media (max-width: 290px) {
+  .HeaderImageOverContent {
+    width: 80%;
+    color: white;
+    position: absolute;
+    bottom: 19%;
+    left: 10%;
+  }
+}
+/* ----------------------------FIVE LOGO WITH CONTAINER----------------------------------- */
+.LOGOS {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* --------------------------------------DESCRIPTION---------------------------- */
+.DescriptionCard {
+  border: unset !important;
+}
+.DescriptionCardImage img {
+  width: 100%;
+}
+.DESCRIPTION {
+  margin-top: 7%;
+}
+.DescriptionHeadText h2 {
+  max-width: 50% !important;
+}
+.DescriptionHeadText h6 {
+  color: #5f4dee;
+}
+.DescriptionHeadText {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+
+/* --------------------------------------------FEATURES------------------------------------- */
+.FeaturesBackground {
+  background-color: #f3f7fd;
+  margin-top: 7%;
+  width: 100%;
+}
+.FeaturesBackground {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.FeatureasHeadText h6 {
+  color: #5f4dee;
+}
+.FeatureasHeadText p {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.List,
+.Campaigns,
+.Analytics {
+  display: flex;
+}
+.ThreeChoosing {
+  display: flex;
+  justify-content: center;
+}
+body {
+  padding-bottom: 10%;
+}
+.List i,
+span {
+  font-size: 30px;
+}
+.Campaigns i,
+span {
+  font-size: 30px;
+}
+.Analytics i,
+span {
+  font-size: 30px;
+}
+.Analytics span {
+  margin-left: 4%;
+}
+.List:hover {
+  color: #5f4fef;
+  font-weight: bold;
+}
+.Campaigns:hover {
+  color: #5f4fef;
+  font-weight: bold;
+}
+.Analytics:hover {
+  color: #5f4fef;
+  font-weight: bold;
+}
+.Campaigns {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-bottom: solid;
+}
+
+.Analytics {
+  border-bottom: solid;
+}
+.List {
+  border-bottom: solid;
+}
+@media (max-width: 614px) {
+  .ThreeChoosing {
+    display: block;
+    width: 50%;
+    margin-left: 20%;
+  }
+  .Campaigns {
+    margin: 0 !important;
+  }
+  .List span {
+    font-size: 25px;
+  }
+  .Campaigns span {
+    font-size: 25px;
+  }
+  .Analytics span {
+    font-size: 25px;
+    margin-left: 4%;
+  }
+}
+.FeaturesCols {
+  margin-top: 3%;
+}
+.FeaturesCols .row .col-xl-6 .FeaturesColImage img {
+  width: 100%;
+}
+.FeaturesCols .row .col-xl-6 h2 {
+  margin-top: 6%;
+}
+ul li {
+  color: blue;
+}
+ul li p {
+  color: black;
+}
+.LightBox {
+  margin-top: 2%;
+  background-color: #5f4dee;
+  color: white;
+  border-color: #5f4dee;
+  border-radius: 20px;
+}
+/* -------------------------------------------NOW IS THE TIME TO UPGRADE ------------------------- */
+.UpgradeCols {
+  margin-top: 3%;
+}
+.UpgradeCols .row .col-xl-6 .UpgradeColImage img {
+  width: 100%;
+}
+.UpgradeCols .row .col-xl-6 h2 {
+  margin-top: 6%;
+}
+ul li {
+  color: blue;
+}
+ul li p {
+  color: black;
+}
+.UpgradeBox {
+  margin-top: 2%;
+  background-color: #5f4dee;
+  color: white;
+  border-color: #5f4dee;
+  border-radius: 20px;
+}
+/* ----------------------------------------------SECTION WITH CLOCK IMAGE------------------------ */
+.ClockBackgroundColor {
+  background-color: #f3f7fd;
+  margin-top: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.BackColor {
+  background-image: url(./../images/video-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1%;
+}
+.BackColorOverContent {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+}
+.ClockIconBackground {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #5f4dee;
+  color: white;
+  text-align: center;
+  box-shadow: 1px 1px 18px 2px black;
+}
+.ClockIconBackground i {
+  font-size: 50px;
+}
+
+/* ------------------------------------------------PRICING---------------------------------------- */
+.bi-check2 {
+  color: #5f4dee;
+}
+[class*=" bi-"]::before,
+[class^="bi-"]::before {
+  font-weight: 900 !important;
+}
+.PRICING {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+.PricingHeadText h2 {
+  max-width: 50% !important;
+  font-weight: 700;
+}
+.PricingHeadText h6 {
+  color: #5f4dee;
+}
+.PricingHeadText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PricingCard {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.PricingCardTopBlack {
+  display: flex;
+  justify-content: center;
+}
+.PricingCardTopBlack h6 {
+  font-weight: bold;
+  margin-top: 50%;
+}
+.IconVsText {
+  display: flex;
+  flex-direction: row;
+}
+.PricingCardContent {
+  margin-top: 4%;
+}
+.PricingCardTopBlue h5 {
+  color: #5f4dee;
+  font-weight: bold;
+}
+.PricingCardTopBlack h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+.BoldDollar {
+  display: flex;
+  align-items: center;
+}
+.BoldDollar h4 {
+  font-weight: 700;
+}
+.PricingCardTopSmallBack {
+  color: #616668;
+}
+.IconVsText div {
+  color: #616668;
+  margin-left: 3%;
+}
+.PricingCardButton button {
+  margin-top: 7%;
+  background-color: #5f4dee;
+  border: #5f4dee;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* ------------------------------------CARUSEL LOGIC------------------------------------------ */
+.Olculeri {
+  height: 100%;
+  /* width: 100%; */
+}
+.carousel-inner {
+  height: 200px !important;
+  margin-left: 10% !important;
+  width: auto !important;
+}
+.carousel-inner img {
+  width: 100px !important;
+  height: 100px;
+  border-radius: 50%;
+}
+.carousel-item.active {
+  display: flex !important;
+}
+.carousel-item.active p {
+  margin-left: 3%;
+  width: 62%;
+}
+.BottomText b {
+  margin-left: 3%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+/* ---------------------------------------------------NEWSLETTER-------------------------------------- */
+.NewsBackground {
+  background-color: #f3f7fd;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  margin-top: 7%;
+}
+.NewsLetterHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.NewsHeadText h6 {
+  color: #5f4dee;
+}
+.NewsLetterHeader input {
+  border: 0.5px solid rgb(221, 215, 215);
+  width: 40%;
+  height: 40px;
+  padding-left: 3%;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 3%;
+}
+.CheckboxAndText {
+  text-align: center;
+  margin-top: 1%;
+  max-width: 500px;
+}
+.CheckboxAndText span {
+  font-size: 12px;
+}
+.NewsButton button {
+  width: 36%;
+  border-radius: 20px !important;
+  background-color: #5f4dee;
+  border-color: #5f4dee;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.NewsButton {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 250px) {
+  .NewsButton button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 0px) {
+  .g-5,
+  .gy-5 {
+    --bs-gutter-y: unset !important;
+  }
+  .g-5,
+  .gx-5 {
+    --bs-gutter-x: unset !important;
+  }
+  .row {
+    --bs-gutter-x: unset !important;
+    --bs-gutter-y: unset !important;
+  }
+}
+@media (max-width: 625px) {
+  .NewsButton button a {
+    color: white !important;
+  }
+}
+/* -----------------------------------------------FİVE İCON END OF PAGE--------------------------------------  */
+.FiveIconWithFlex {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.FirstIcon,
+.SecondIcon,
+.ThirdICon,
+.FourthIcon,
+.FivethIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5f4dee;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FirstIcon i {
+  font-size: 30px;
+}
+.SecondIcon i {
+  font-size: 30px;
+}
+.ThirdICon i {
+  font-size: 30px;
+}
+.FourthIcon i {
+  font-size: 30px;
+}
+.FivethIcon i {
+  font-size: 30px;
+}
+@media (max-width: 250px) {
+  .FiveIconWithFlex {
+    display: block;
+    text-align: -webkit-center;
+  }
+}
+/* -----------------------------------------------FOOTER------------------------------------------------- */
+
+.FooterColContent ul li {
+  color: white !important;
+}
+.FooterBackgroundImage {
+  margin-top: 7%;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.FooterBackgroundImage img {
+  width: 100%;
+  height: 100%;
+}
+.FooterImageOver {
+  color: white !important;
+  position: absolute;
+  top: 50%;
+}
+.FooterColContent ul li a {
+  color: white;
+}
+.FooterColContent ul:nth-child(2) {
+  display: flex;
+  margin-left: 0;
+  margin-left: -5%;
+}
+.FooterColContent ul {
+  margin-left: -5%;
+}
+body {
+  padding: 0 !important;
+}
+.FooterImageOver hr {
+  margin-top: 5%;
+}
+@media (max-width: 1200px) {
+  .FooterImageOver hr {
+    display: none !important;
+  }
+  .FooterImageOver {
+    font-size: 13px;
+  }
+  .HrBottom {
+    display: none;
+  }
+}
+@media (max-width: 625px) {
+  .FooterBackgroundImage img {
+    display: none;
+  }
+  .FooterImageOver {
+    color: black !important;
+  }
+  .FooterColContent ul li {
+    color: black !important;
+  }
+  .FooterColContent ul li i,
+  a {
+    color: black !important;
+  }
+}
+@media (max-width: 297px) {
+  .FooterColContent {
+    max-width: 50%;
+  }
+  .globeAndContact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* -------------------------END--------------------------------- */

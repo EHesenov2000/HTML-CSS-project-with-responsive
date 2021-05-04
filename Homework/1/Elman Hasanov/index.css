@@ -1,0 +1,586 @@
+/* -----------------------------------------------HEADER------------------------------------ */
+.HeaderBackgroundImage img {
+  width: 100%;
+}
+.HeaderBackgroundImage {
+  position: relative;
+}
+.HeaderOverContent {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+.HeaderOverContent button {
+  background-color: #23b3c8;
+}
+.HeaderOver img {
+  width: 45rem !important;
+  height: 17rem;
+}
+.HeaderOver {
+  position: absolute;
+  bottom: 3%;
+  left: 35%;
+}
+.HeaderOverNavbar {
+  position: absolute;
+  width: 100%;
+  top: 1%;
+  display: flex;
+  flex-direction: row;
+}
+.HeaderNavbarRight2 {
+  display: none;
+}
+.HeaderNavbarRight {
+  position: absolute;
+  display: flex;
+  right: 3%;
+}
+.HeaderNavbarRight ul {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.HeaderNavbarRight ul li:hover {
+  color: red;
+}
+.HeaderNavbarleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 60px;
+  height: 60px;
+  margin-left: 3%;
+}
+.HeaderNavbarleft h1 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.HeaderNavbarRight ul button {
+  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #fe7a7f;
+  color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+@media (max-width: 643px) {
+  .HeaderNavbarRight {
+    display: none !important;
+  }
+  .HeaderNavbarRight2 {
+    display: flex !important;
+    right: 0 !important;
+    position: absolute;
+  }
+}
+@media (max-width: 1288px) {
+  .HeaderOver img {
+    width: 408px !important;
+    height: 200px;
+  }
+  .HeaderOver {
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+  }
+  .HeaderOverContent {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}
+@media (max-width: 1157px) {
+  .HeaderOver img {
+    width: 408px !important;
+    height: 150px;
+  }
+  .HeaderOver {
+    position: absolute;
+    bottom: 3%;
+    left: 40%;
+  }
+  .HeaderOverContent {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 817px) {
+  .HeaderOver img {
+    display: none;
+  }
+}
+@media (max-width: 468px) {
+  .HeaderOverContent {
+    color: black !important;
+  }
+}
+/* ----------------------------------FIVE LOGO-------------------------------------- */
+.FiveLogo {
+  opacity: 0.5;
+  margin-top: 7%;
+}
+/* <!-- ---------------------------CLEAN AND SIMPLE DESIGN WITH 3 CARDS----------------------------- --> */
+.Clean {
+  margin-top: 7%;
+}
+.Clean h1 {
+  width: 80%;
+  margin-bottom: 3%;
+}
+.CleanCardFooter a {
+  text-decoration: none;
+  color: black;
+}
+.CleanHeader {
+  display: flex;
+  justify-content: center;
+}
+.Line {
+  width: 200px;
+  height: 4px;
+  background-color: #fe7687;
+  border: 1px solid #febaac;
+  display: flex;
+  justify-content: center;
+}
+.CleanLine {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.CleanCard {
+  border: unset !important;
+  box-shadow: -1px 7px 32px -9px grey;
+}
+.CleanCardImage {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+.BackSvg {
+  position: absolute;
+  top: 15%;
+  left: 39%;
+}
+.OnSvg {
+  position: absolute;
+  top: 35%;
+  left: 46%;
+}
+.CardSvgOver {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  color: white;
+}
+/* <!-- ------------------------------------------------QUICK EASY---------------------------------- --> */
+.Quick {
+  margin-top: 7%;
+}
+.Sol span {
+  font-size: 40px;
+}
+
+.QuickButton {
+  background-color: #fe7c78;
+  font-size: 20px;
+}
+button:not(:disabled) {
+  cursor: pointer;
+  border-radius: 4px;
+  border: unset;
+  color: white;
+  font-weight: bold;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.Sag img {
+  width: 100%;
+}
+/* <!-- ----------------------------------------------------MORDERN DESIGN---------------------------- --> */
+.ModernButton {
+  background-color: #fe7c78 !important;
+  font-size: 20px;
+}
+.Modern {
+  margin-top: 7%;
+}
+/* <!-- ----------------------------------SAAS APP AND SOFTWARE LANDING PAGE------------------------------ --> */
+.SoftwareButton {
+  background-color: #fe7c78 !important;
+  font-size: 20px;
+}
+.Software {
+  margin-top: 7%;
+}
+/* <!-- -------------------------------------COOL FACTS---------------------------------------------- --> */
+.Video {
+  border-radius: 10px;
+}
+
+.sol1 {
+  position: relative !important;
+}
+.Dots {
+  position: absolute !important;
+  bottom: -36px;
+  left: -55px;
+  z-index: -1;
+}
+.ThreeCircles {
+  display: flex;
+}
+.FirstCircle,
+.SecondCircle,
+.ThirdCircle {
+  width: 130px;
+  height: 198px;
+  border-radius: 63px;
+  color: white;
+  transform: rotate(45deg);
+}
+.FirstCircle {
+  background-color: #1dabcc;
+}
+.SecondCircle {
+  background-color: #fe7784;
+}
+.ThirdCircle {
+  background-color: #3251d9;
+}
+.RotateText {
+  transform: rotate(-45deg);
+  margin-top: 56%;
+  text-align: center;
+  font-size: 21px;
+}
+
+@media (max-width: 576px) {
+  .ThreeCircles {
+    display: flex;
+  }
+  .FirstCircle,
+  .SecondCircle,
+  .ThirdCircle {
+    width: 70px;
+    height: 108px;
+    border-radius: 63px;
+    color: white;
+    transform: rotate(45deg);
+  }
+  .RotateText {
+    transform: rotate(-45deg);
+    margin-top: 50%;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media (max-width: 405px) {
+  .FirstCircle,
+  .SecondCircle,
+  .ThirdCircle {
+    width: 70px;
+    height: 108px;
+    border-radius: 63px;
+    color: white;
+    transform: rotate(0deg);
+    display: inline-table;
+  }
+  .RotateText {
+    transform: rotate(0deg);
+    margin-top: 50%;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media (max-width: 370px) {
+  .ThreeCircles {
+    display: inline;
+    text-align: center;
+  }
+}
+/* <!-- --------------------------------------------CREATIVE TEAM MEMBERS------------------------ --> */
+.CreativeHeader {
+  display: flex;
+  justify-content: center;
+}
+.Creative {
+  margin-top: 7%;
+}
+.Creative h1 {
+  width: 50%;
+  margin-bottom: 3%;
+}
+.CreativeLine {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.CreativeCardImage img {
+  width: 100%;
+}
+.CreativeCard {
+  border: unset !important;
+}
+.CreativeCardImage {
+  position: relative;
+}
+.CardImageOver {
+  position: absolute;
+  bottom: 4%;
+  left: 14%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 70%;
+  height: 25%;
+}
+.Over {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.2;
+  background-color: white;
+  border-radius: 33px;
+  display: flex;
+}
+.CardIconnns {
+  display: flex;
+  position: absolute;
+  color: white;
+  bottom: 37%;
+  left: 23% !important;
+}
+@media (max-width: 768px) {
+  .CardIconnns {
+    display: flex;
+    position: absolute;
+    color: white;
+    bottom: 37%;
+    left: 30% !important;
+  }
+}
+@media (max-width: 340px) {
+  .CardIconnns {
+    display: flex;
+    position: absolute;
+    color: white;
+    bottom: 37%;
+    left: 15% !important;
+  }
+}
+@media (max-width: 275px) {
+  .CardImageOver {
+    position: absolute;
+    bottom: 4%;
+    left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 85%;
+    height: 25%;
+  }
+  .CardIconnns {
+    display: flex;
+    position: absolute;
+    color: white;
+    bottom: 37%;
+    left: 15% !important;
+    font-size: 10px;
+  }
+}
+@media (max-width: 185px) {
+  .CardImageOver {
+    position: absolute;
+    bottom: 4%;
+    left: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    height: 25%;
+  }
+}
+/* <!-- -------------------------------------------------USERS SHARING-------------------------------- --> */
+.SharingHeader {
+  display: flex;
+  justify-content: center;
+}
+.Sharing {
+  margin-top: 7%;
+}
+.Sharing h1 {
+  width: 50%;
+  margin-bottom: 3%;
+}
+.SharingLine {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.SharingCardTop {
+  display: flex;
+  position: relative;
+}
+.TopLeft {
+  float: left !important;
+  color: blue;
+}
+.TopRight {
+  float: right !important;
+  position: absolute;
+  right: 0;
+  color: #fe806d;
+}
+.SharingCardContent {
+  text-align: justify;
+}
+.SharingCardFoot {
+  margin-top: 6%;
+  display: flex;
+}
+
+.SharingCardImage {
+  position: relative;
+  width: 39%;
+}
+.FrontSvg {
+  position: absolute;
+  width: 80px;
+  left: 4%;
+  top: 39%;
+}
+.BackgrounudSvg {
+  position: absolute;
+  top: 12%;
+  left: -12%;
+  bottom: -101px !important;
+}
+.FootContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.orta {
+  color: #fe806d;
+}
+@media (max-width: 768px) {
+  .BackgrounudSvg {
+    position: absolute;
+    top: 12%;
+    left: -6%;
+    bottom: -101px !important;
+  }
+}
+@media (max-width: 360px) {
+  .BackgrounudSvg {
+    position: absolute;
+    top: 12%;
+    left: -15%;
+    bottom: -101px !important;
+  }
+}
+/* <!-- --------------------------------------------------BLOG POSTS------------------------------ --> */
+.Blog {
+  margin-top: 7%;
+}
+.BlogCardFoot a,
+.yellow {
+  text-decoration: none;
+  color: #fe806d;
+}
+.BlogCardPost {
+  display: flex;
+}
+.BlogCardPostRight {
+  margin-left: 15%;
+}
+.BlogCardPost {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 12px;
+  color: grey;
+}
+.BlogCardFoot {
+  margin-top: 3%;
+}
+.BlogCardImage img {
+  width: 100%;
+}
+.BlogCard {
+  border: unset !important;
+}
+/* -------------------------------------------FOOTER---------------------------- */
+@media (max-width: 768px) {
+  .Line {
+    margin-top: 6%;
+  }
+}
+.FooterBackgroundImage img {
+  width: 100%;
+}
+.FooterBackgroundImage {
+  position: relative;
+  color: white;
+  margin-top: 7%;
+}
+.FooterImageOverInputBox {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+  margin-left: 4%;
+  box-shadow: 5px 5px 5px 5px grey;
+  color: black;
+}
+.ImageOverCols {
+  position: absolute;
+  bottom: 10%;
+  margin-left: 5%;
+}
+.FooterLogo {
+  display: flex;
+}
+.FooterLogo img {
+  width: 60px;
+  height: 60px;
+}
+.FooterIcons {
+  display: flex;
+}
+@media (min-width: 1200px) {
+  .h2,
+  h2 {
+    font-size: 2rem;
+    width: 42%;
+  }
+}
+.FooterImageOverInputBox input {
+  width: 385px;
+}
+.FooterImageOverInputBox button {
+  background-color: #fe7a7f;
+  color: white;
+}

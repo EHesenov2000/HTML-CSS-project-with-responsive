@@ -1,0 +1,83 @@
+.traffic-lights {
+  padding: 10px 20px;
+  width: 100px;
+  background: #222;
+  position: absolute;
+  left: 40%;
+}
+
+.light {
+  border-radius: 50%;
+  background: teal;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
+
+@keyframes red-light {
+  0% {
+    background: #302c2c;
+  }
+  1%,
+  35% {
+    background: red;
+  }
+  36%,
+  100% {
+    background: #302c2c;
+  }
+}
+
+@keyframes yellow-light {
+  0%,
+  35% {
+    background: #302c2c;
+  }
+  37%,
+  41% {
+    background: orange;
+  }
+  41%,
+  46% {
+    background: #302c2c;
+  }
+  47%,
+  51% {
+    background: orange;
+  }
+  52%,
+  55% {
+    background: #302c2c;
+  }
+  56%,
+  65% {
+    background: orange;
+  }
+  67%,
+  100% {
+    background: #302c2c;
+  }
+}
+
+@keyframes green-light {
+  0%,
+  65% {
+    background: #302c2c;
+  }
+  67%,
+  100% {
+    background: teal;
+  }
+}
+
+.red {
+  animation: red-light 15s linear infinite;
+}
+
+.yellow {
+  animation: yellow-light 15s linear infinite;
+}
+
+.green {
+  animation: green-light 15s linear infinite;
+}

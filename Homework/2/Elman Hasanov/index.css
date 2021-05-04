@@ -1,0 +1,775 @@
+/* ----------------PAGE HEADER------------------------- */
+body {
+  margin: 0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+header {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #918a8a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav .right:hover {
+  border-bottom: 1px solid white;
+  color: blue;
+  box-shadow: 0 5px 10px 5px white;
+  font-size: 20px;
+  padding-bottom: px;
+  font-weight: bold;
+}
+
+.topnav .icon {
+  display: none;
+}
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav .right:hover {
+    color: blue;
+    box-shadow: 0 5px 5px white;
+    font-size: 20px;
+    padding-bottom: px;
+    font-weight: bold;
+  }
+}
+/* -------------------------------------MARK PARKER--------------------------------------- */
+.BackColor {
+  background-color: #fbfbfb;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1%;
+}
+
+.viewButton {
+  border-radius: 25px;
+  background-color: #754ef9;
+  color: white;
+  padding: 2%;
+  border-color: #754ef9;
+  box-shadow: 2px 2px 7px 1px black;
+}
+.BackColor .BackColorOverContent p {
+  color: grey !important;
+}
+.BackColor .BackColorOverContent h4 {
+  color: #754ef9;
+}
+.BackColorOverContent {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.top_Left1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+}
+.top_Left2 {
+  position: absolute;
+  top: -5%;
+  left: 20%;
+  width: 100px;
+  height: 100px;
+}
+.top_Left3 {
+  position: absolute;
+  top: -1%;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+}
+.top_Left4 {
+  width: 100px;
+  height: 100px;
+  right: 4%;
+  position: absolute;
+}
+.right_Center {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 1%;
+  top: 44%;
+}
+.right_Bottom {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 2%;
+  bottom: 0;
+}
+.bottom_Left {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+}
+.bottom_LeftOn {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 6%;
+  bottom: 10%;
+}
+.bottom_LeftOnOn {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 6%;
+  bottom: 30%;
+}
+.bottom_center {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 80%;
+  left: 53%;
+}
+.HeroImage {
+  top: 3%;
+  right: 15%;
+  height: 80%;
+  width: 30%;
+  position: absolute;
+  z-index: 2;
+}
+@media (max-width: 576px) {
+  .BackColor {
+    background-color: #fbfbfb;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  .top_Left1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  .top_Left2 {
+    position: absolute;
+    top: -5%;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+  }
+  .top_Left3 {
+    position: absolute;
+    top: -1%;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+  }
+  .top_Left4 {
+    width: 50px;
+    height: 50px;
+    right: 4%;
+    position: absolute;
+  }
+  .right_Center {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 1%;
+    top: 44%;
+  }
+  .right_Bottom {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 2%;
+    bottom: 0;
+  }
+  .bottom_Left {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+  }
+  .bottom_LeftOn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 6%;
+    bottom: 10%;
+  }
+  .bottom_LeftOnOn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 6%;
+    bottom: 30%;
+  }
+  .bottom_center {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 53%;
+  }
+  .HeroImage {
+    top: 3%;
+    right: 15%;
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+  }
+}
+@media (max-width: 260px) {
+  .HeroImage {
+    top: 3%;
+    right: 15%;
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+  }
+}
+@media (max-width: 940px) {
+  .BackColorOverContent h4 {
+    font-size: 14px;
+  }
+  .BackColorOverContent h1 {
+    width: 70%;
+    font-size: 17px;
+  }
+  .BackColorOverContent p {
+    font-size: 12px;
+    width: 70%;
+  }
+  .viewButton {
+    border-radius: 25px;
+    background-color: #754ef9;
+    color: white;
+    padding: 1%;
+    font-size: 10px;
+    border-color: #754ef9;
+    box-shadow: 2px 2px 7px 1px black;
+  }
+}
+@media (max-width: 420px) {
+  .BackColorOverContent {
+    left: 10%;
+    z-index: 3;
+  }
+}
+@media (max-width: 327px) {
+  .BackColor .BackColorOverContent p {
+    color: red !important;
+    font-weight: bold;
+  }
+}
+/* -----------------------------ABOUT ME------------------------------------- */
+
+.AboutHead {
+  text-align: center;
+  width: 50% !important;
+  margin-top: 8%;
+}
+.AboutLeft {
+  float: left;
+  width: 48%;
+}
+.AboutRight {
+  float: right;
+  width: 48%;
+  margin-left: 2%;
+}
+.AboutFooterLeft {
+  float: left;
+  width: 48%;
+}
+.AboutFooterRight {
+  float: right;
+  width: 48%;
+}
+.AboutMain {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.progress {
+  height: 5px !important;
+}
+.ProgressTop {
+  display: flex;
+  flex-direction: row;
+}
+.ProgressTopLeft {
+  float: left;
+  width: 90%;
+}
+.ProgressTopRight {
+  float: right;
+}
+.AboutMain .AboutLeft p span {
+  color: #8a94ae;
+}
+.AboutHead span {
+  color: #8a94ae;
+}
+.AboutFooterLeft span {
+  color: #8a94ae;
+}
+.AboutFooterRight span {
+  color: #8a94ae;
+}
+@media (max-width: 768px) {
+  .AboutLeft {
+    width: 100%;
+  }
+  .AboutRight {
+    width: 100%;
+    margin-left: 2%;
+  }
+}
+@media (max-width: 470px) {
+  .AboutFooterLeft {
+    width: 100%;
+    text-align: center;
+  }
+  .AboutFooterRight {
+    width: 100%;
+    text-align: center;
+  }
+  .AboutHead span {
+    color: #8a94ae;
+    font-size: 12px !important;
+  }
+}
+/* -----------------------------------MY SERVICES---------------------------------/ */
+.BackgroundGrey {
+  background-color: #fbfbfb;
+  margin-top: 4%;
+}
+.ServicesHead {
+  padding-top: 3%;
+  text-align: center;
+  width: 50% !important;
+}
+.BackgroundGrey .container .row .card {
+  width: 100%;
+}
+@media (min-width: 260px) {
+  .BackgroundGrey .container .row .card {
+    width: 100%;
+    height: 400px;
+  }
+}
+.ServicesCards {
+  margin-top: 3%;
+  padding-bottom: 3%;
+}
+.CardIcon i {
+  font-size: 100px;
+  color: #9172fa;
+}
+.card .CardText p {
+  color: black !important;
+  margin-top: 1%;
+}
+/* ------------------------------HAVE ANY PROJECT ON MIND------------------------------------------- */
+.CallToActionColor {
+  background-image: url(../images/call-to-action.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+element.style {
+  background-image: url(../images/call-to-action.jpg);
+}
+
+.CallButtons .CallButton1 {
+  border-radius: 25px;
+  background-color: white;
+  border-color: #400ff2;
+  color: #754ef9;
+  width: 18%;
+  padding: 0.5%;
+}
+.CallButtons .CallButton2 {
+  border-radius: 25px;
+  margin-left: 2%;
+  background-color: inherit;
+  color: white;
+  border-color: white;
+  width: 18%;
+  padding: 0.5%;
+}
+.OverColor {
+  background-color: rgb(117, 78, 249, 0.5);
+  width: 100% !important;
+  height: 100% !important;
+}
+.MainContent {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  justify-content: center;
+}
+.CallToActionText {
+  text-align: center;
+}
+.CallToActionText h2,
+p {
+  color: white !important;
+}
+@media (max-width: 992px) {
+  .CallButtons .CallButton1 {
+    border-radius: 25px;
+    background-color: white;
+    border-color: #400ff2;
+    color: #754ef9;
+    width: 14%;
+    padding: 0.5%;
+    font-size: 10px !important;
+  }
+  .CallButtons .CallButton2 {
+    border-radius: 25px;
+    margin-left: 2%;
+    background-color: inherit;
+    color: white;
+    border-color: white;
+    width: 14%;
+    padding: 0.5%;
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .CallButtons .CallButton1 {
+    border-radius: 25px;
+    background-color: white;
+    border-color: #400ff2;
+    color: #754ef9;
+    width: 18%;
+    padding: 0.5%;
+    font-size: 10px !important;
+  }
+  .CallButtons .CallButton2 {
+    border-radius: 25px;
+    margin-left: 2%;
+    background-color: inherit;
+    color: white;
+    border-color: white;
+    width: 18%;
+    padding: 0.5%;
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 468px) {
+  .CallButtons .CallButton1 {
+    border-radius: 25px;
+    background-color: white;
+    border-color: #400ff2;
+    color: #754ef9;
+    width: 30% !important;
+    padding: 0.5%;
+    font-size: 9px !important;
+  }
+  .CallButtons .CallButton2 {
+    border-radius: 25px;
+    margin-left: 2%;
+    background-color: inherit;
+    color: white;
+    border-color: white;
+    width: 30% !important;
+    padding: 0.5%;
+    font-size: 9px !important;
+  }
+  .CallToActionText p {
+    font-size: 12px !important;
+  }
+  .CallToActionText h2 {
+    font-size: 15px;
+  }
+}
+
+/* -------------------------------------MY RECENT WORKS------------------------------------------------ */
+.WorkHead {
+  margin-top: 14%;
+}
+.WorksButton button {
+  border-radius: 25px;
+  background-color: #754ef9;
+  border-color: #754ef9;
+  color: white;
+  font-size: 15px;
+  box-shadow: 2px 2px 7px 1px black;
+  padding: 1%;
+}
+.WorksButton {
+  text-align: center;
+  margin-top: 2%;
+}
+/* -------------------------------MY PRICING PLANS------------------------------------------ */
+.BackGrey {
+  background-color: #fbfbfb;
+  margin-top: 4%;
+  padding-bottom: 4%;
+}
+.PricingHead {
+  padding-top: 4%;
+  text-align: center;
+  width: 50% !important;
+}
+.BackGrey .container .row .card {
+  width: 100%;
+}
+.PiricingCards {
+  margin-top: 3%;
+}
+.TopHead {
+  background-color: #754ef9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+.dollar {
+  color: #754ef9;
+}
+.BottomHead {
+  width: 70% !important;
+  margin-top: 3%;
+}
+.PricingButton {
+  text-align: center;
+  margin-top: 2%;
+}
+.PricingButton11 {
+  text-align: center;
+  margin-top: 2%;
+}
+.PricingButton button {
+  border-radius: 25px;
+  background-color: white;
+  border-color: #754ef9;
+  color: #754ef9;
+  font-size: 15px;
+  width: 150px;
+  box-shadow: 2px 2px 7px 1px black;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+.PricingButton11 button {
+  border-radius: 25px;
+  background-color: #754ef9;
+  border-color: #754ef9;
+  color: white;
+  font-size: 15px;
+  width: 150px;
+  box-shadow: 2px 2px 7px 1px black;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+.WorkHead p {
+  color: black !important;
+}
+.BottomHead p {
+  color: black !important;
+}
+.box p {
+  color: black !important;
+}
+/* ----------------------------------------------FROM THE BLOG----------------------------------------- */
+.BlogHead {
+  padding-top: 4%;
+  text-align: center;
+  width: 50% !important;
+}
+.card .Image img {
+  width: 100%;
+  position: relative;
+}
+.card .box {
+  background-color: white;
+  width: 80%;
+  text-align: justify;
+  border-color: white !important;
+  position: absolute;
+  height: 27%;
+  margin-top: 76%;
+  margin-left: -1%;
+}
+.BlogCards {
+  margin-top: 3%;
+}
+
+@media (max-width: 768px) {
+  .card .box b h4 {
+    font-size: 14px;
+  }
+}
+.BlogButton button {
+  border-radius: 25px;
+  background-color: #754ef9;
+  border-color: #754ef9;
+  color: white;
+  font-size: 15px;
+  width: 150px;
+  box-shadow: 2px 2px 7px 1px black;
+  padding: 1%;
+}
+.BlogButton {
+  text-align: center;
+  margin-top: 4% !important;
+}
+
+/* ----------------------------------------GET IN TOUCH------------------------------------ */
+.GreyBackgraundColor {
+  background-color: #fbfbfb;
+  margin-top: 4%;
+}
+.TouchHead {
+  padding-top: 4%;
+  text-align: center;
+  width: 50% !important;
+}
+.GreyBackgraundColor .row .col-xl-4 .card {
+  min-height: 100% !important;
+}
+.TouchCards {
+  margin-top: 3%;
+}
+.TouchCardContent {
+  text-align: center;
+  margin-top: 2%;
+}
+.TouchCardIcon i {
+  color: #754ef9;
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  margin-top: 3%;
+}
+/* ------------------- */
+.FormAndMap {
+  margin-top: 3%;
+}
+.TouchLeftInputs {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+.TouchLeftInputs input {
+  padding-left: 2%;
+}
+.TouchLeftInputs textarea {
+  min-height: 100px;
+  max-height: 100px;
+  padding-left: 2%;
+}
+.TouchButton button {
+  border-radius: 25px;
+  background-color: #754ef9;
+  border-color: #754ef9;
+  color: white;
+  font-size: 15px;
+  width: 150px;
+  box-shadow: 2px 2px 7px 1px black;
+  padding: 1%;
+}
+.TouchButton {
+  margin-top: 4% !important;
+}
+/* ---------MAP---------- */
+#map {
+  height: 250px;
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .TouchLeftInputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 2%;
+  }
+  #map {
+    height: 250px;
+    width: 100%;
+  }
+  .TouchButton button {
+    border-radius: 25px;
+    background-color: #754ef9;
+    border-color: #754ef9;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+    box-shadow: 2px 2px 7px 1px black;
+    padding: 1%;
+    margin-bottom: 3%;
+  }
+  .TouchHead span {
+    font-size: 12px;
+  }
+}
+
+/* -----------------------------------FOOTER------------------------------------- */
+footer {
+  margin-top: 5%;
+}
+footer div img {
+  height: 50px;
+  margin-bottom: 2%;
+}
+.FooterText {
+  margin-left: 28%;
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .FooterText {
+    margin-left: 8%;
+    width: 80%;
+    font-size: 12px !important;
+  }
+}
